@@ -1014,6 +1014,11 @@ a {
   justify-content: center;
   gap: 2rem;
 }
+@media screen and (min-width: 375px) {
+  .ourWorks {
+    margin-top: 0rem !important;
+  }
+}
 @media only screen and (max-width: 575.98px) {
   .ourWorks {
     margin-top: -5rem;
@@ -2713,7 +2718,7 @@ a {
 }
 @media only screen and (max-width: 575.98px) {
   .about-detail-container-imageRow-card2-content {
-    font-size: 28px;
+    font-size: 24px;
     line-height: normal;
   }
 }

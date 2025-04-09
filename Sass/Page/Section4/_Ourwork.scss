@@ -8,6 +8,10 @@
   justify-content: center;
   gap: 2rem;
 
+  @media screen and (min-width: 375px) {
+    margin-top: 0rem !important;
+  }
+
   @include mix.respond(smallPhone) {
     margin-top: -5rem;
   }
@@ -19,6 +23,7 @@
     padding: 2rem;
     height: 90%;
     width: 95%;
+
     @include mix.respond(smallPhone) {
       padding: 4rem 0.8rem 0rem 0.8rem;
     }
